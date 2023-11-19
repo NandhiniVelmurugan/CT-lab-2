@@ -1,0 +1,317 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    background-color:#fff;
+  }
+  
+  .container {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+  
+  .jumbotron {
+    background: url('https://images2.alphacoders.com/440/440305.jpg');
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+    height: 400px;
+  }
+  
+  .nav {
+    margin: 0;
+    padding: 20px 0;
+  }
+  
+  .nav li {
+    display:inline;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform:uppercase;
+    margin-left:10px;
+    margin-right:10px;
+  }
+  
+  .main {
+    position: relative;
+    top: 180px;
+    text-align: center;
+  }
+  
+  .main h1 {
+    color:black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 80px;
+    text-transform: uppercase;
+  }
+  
+  .btn-main {
+    background-color: #333;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 1.3px;
+    padding: 16px 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  .btn-default {
+    color:#333;
+    border:1px solid #333333;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+    letter-spacing: 1.3px;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;  
+    display: inline-block;
+    margin-bottom: 20px; 
+    padding-right:50px;
+    padding-left:50px;
+  }
+  
+  .supporting {
+    padding-top: 80px;
+    padding-bottom: 100px;
+  }
+  /* Style for the entire image grid */
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+    gap: 20px; /* Adjust the gap between items */
+    padding: 20px;
+  }
+  
+  /* Style for each grid item */
+  .grid-item {
+    border: 1px solid #ccc; /* Add a border around each item */
+    padding: 20px;
+    text-align: center;
+    margin: 10px; 
+    
+
+  }
+  
+  /* Style for images inside grid items */
+  .grid-item img {
+    max-width: 500px;
+    height: auto;
+
+  }
+  
+
+  .grid-item h2 {
+    margin: 10px 0;
+    font-size: px;
+    font-weight: 20px;
+  }
+  
+  /* Style for the "Learn More" link */
+  .grid-item a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  /* Change the link background on hover */
+  .grid-item a:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  .clearfix {
+    clear: both;
+  }
+ /* Add styles for the car list */
+.car-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.card-1{
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  padding: 10px;
+  text-align: center;
+}
+
+.card img-1 {
+  max-width: 100%;
+  height: auto;
+}
+
+.card h3-1 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.card p-1 {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+.card-body-1 {
+  padding: 10px;
+}
+.find__cars-left {
+  background: linear-gradient(rgb(249, 168, 38, 0.9), rgb(249, 168, 38, 0.9));
+   
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 65px 35px;
+}
+
+.find__cars-left h2 {
+  font-weight: 600;
+  font-size: 2.8rem;
+}
+
+.form__group {
+  width: 30%;
+  margin-bottom: 0;
+}
+
+.form__group input {
+  border: 1px solid #7c8a972a;
+  padding: 8px 12px;
+
+  width: 100%;
+  outline: none;
+}
+.form__group input::placeholder {
+  color: #7c8a97;
+}
+
+.form-1 {
+  background: #fff;
+  padding-top: 55px;
+  padding-bottom: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.select__group {
+  width: 30%;
+}
+
+.select__group select {
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px solid #7c8a972a;
+  outline: none;
+  color: #7c8a97;
+}
+
+.hero__slider-section {
+  position: relative;
+  z-index: 10;
+  margin-bottom: 200px;
+}
+
+.hero__form {
+  position: absolute;
+  padding: top 100px;
+  margin-top: 70px;
+  margin-bottom: 90px;
+
+  /* bottom: -150px; */
+  z-index: 11;
+  width: 100%;
+}
+
+.form__row {
+  background: #fff;
+  box-shadow: 5px 5px 15px -5px #7c8a97;
+}
+
+.journey__time::before {
+  content: "Journey time";
+  margin-right: 0.8rem;
+  color: #7c8a97;
+}
+
+.find__car-btn {
+  background: #000d6b !important;
+  color: #fff !important;
+  padding: 8px 15px;
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+@media only screen and (max-width: 992px) {
+  .find__cars-left {
+    padding: 65px 22px;
+  }
+
+  .find__cars-left h2 {
+    font-size: 1.5rem;
+  }
+
+  .form {
+    padding: 30px 10px;
+  }
+
+  .form__group input,
+  .select__group select {
+    padding: 7px 10px;
+    font-size: 0.8rem;
+  }
+
+  /* .hero__form {
+    bottom: -100px;
+  } */
+}
+
+@media only screen and (max-width: 768px) {
+  .find__cars-left {
+    padding-top: 20px;
+    padding-bottom: 0;
+    background: #fff;
+    text-align: center;
+  }
+
+  .form {
+    padding: 20px 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .form {
+    max-width: 100%;
+  }
+}
+
+  
+  @media (max-width: 500px) {
+    .main h1 {
+      font-size: 50px;
+      padding: 0 40px;
+    }
+  
+    .supporting .col {
+      width: 100%;
+    }
+  }

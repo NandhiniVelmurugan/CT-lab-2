@@ -1,0 +1,55 @@
+@import "../../../../vendors/mixins";
+@import "../../../../vendors/variables";
+
+.general-button-new {
+    background-color: transparent; /* Set the background color to transparent */
+     /* Change the text color to your preferred color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: 1px solid #fff; /* Add a white border for contrast */
+    border-radius: 5px;
+    font-size: 16px; /* Adjust font size as needed */
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-top: 200px;
+
+  }
+  
+  /* Add hover styles if needed */
+  .general-button-new:hover {
+    background-color:azure; /* Change the hover background color to white or another color */
+  }
+    
+.hero {
+    .hero-content {
+        height: 524px;
+        background-image: url(https://static.vecteezy.com/system/resources/previews/007/449/070/non_2x/agriculture-plant-seedling-growing-step-concept-with-mountain-and-sunrise-background-free-photo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom right;
+        padding: 80px 100px;
+        text-align: center;
+
+        @media(max-width: 922px) {
+            height: 430px;
+        }
+
+        @media(max-width: 767px) {
+            padding: 70px 0 70px 40px;
+        }
+
+        h1 {
+            font-size: 4rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            color:black;
+
+            @media(max-width: 922px) {
+                font-size: 40px;
+            }
+
+            @media(max-width: 544px) {
+                font-size: 32px;
+            }
+        }
+    }
+}

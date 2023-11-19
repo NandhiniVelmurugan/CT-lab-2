@@ -1,0 +1,55 @@
+/* styles.css */
+
+/* Reduce the overall width of the rental listings */
+.rental-page {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 600px; /* Adjust the max-width as needed */
+    margin: 0 auto; /* Center the grid horizontally */
+  }
+  
+  /* Style the individual rental listings */
+  .rental-page > div {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  /* Add more styles as needed to customize the appearance of your RentalPage component. */
+  
+  
+  /* Style the h1 element */
+  .rental-page h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+ 
+  
+  /* Style the h2 element within rental listings */
+  .rental-page > div h2 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  /* Style the image within rental listings */
+  .rental-page > div img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* Style the p element (price) within rental listings */
+  .rental-page > div p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  /* Add more styles as needed to customize the appearance of your RentalPage component. */
+  

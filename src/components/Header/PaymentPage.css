@@ -1,0 +1,74 @@
+.payment-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.payment-method {
+  cursor: pointer;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.payment-method.selected {
+  background-color: #e6f7ff; /* Light blue background for the selected method */
+}
+
+.payment-icon {
+  width: 60px; /* Increase the size of the payment icon */
+  height: 60px; /* Increase the size of the payment icon */
+  margin-right: 10px;
+}
+
+.payment-image {
+  max-width: 80%; /* Reduce the size of the payment image */
+  max-height: 200px; /* Set a maximum height for the payment image */
+  margin: 10px auto; /* Center the image horizontally */
+  display: block; /* Ensure block-level display for proper centering */
+  border-radius: 8px;
+}
+
+.payment-form {
+  margin-top: 20px;
+  text-align: center; /* Center the text content inside the payment form */
+}
+
+.payment-form h2 {
+  margin-bottom: 10px;
+}
+
+.payment-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.payment-form button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.payment-form button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.payment-status {
+  margin-top: 10px;
+  color: #4caf50; /* Green color for success message */
+}
+
+
